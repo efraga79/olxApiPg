@@ -1,0 +1,37 @@
+{
+  "name": "olxapipg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "startdev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efraga79/olxApiPg.git"
+  },
+  "keywords": [],
+  "author": "Estevaldo Fraga Ribeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efraga79/olxApiPg/issues"
+  },
+  "homepage": "https://github.com/efraga79/olxApiPg#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.0",
+    "helmet": "^4.6.0",
+    "jimp": "^0.16.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  }
+}
